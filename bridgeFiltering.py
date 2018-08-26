@@ -21,9 +21,9 @@ resultsFile = ""
 
 def on_message(client, userdata, message):
 	"Evaluated when a new message is received on a subscribed topic"
-	print("Received message '" + str(message.payload) + "' on topic '"
+	print("Received message '" + str(message.payload)[2:][:-1] + "' on topic '"
 		+ message.topic + "' with QoS " + str(message.qos))
-	if not filterMessage(str(message.payload), str(message.topic), (message.qos)):
+	if not filterMessage(str(message.payload)[2:][:-1], str(message.topic), (message.qos)):
 		writeToResultsFile(message)
 
 def writeToResultsFile(message):
@@ -33,7 +33,7 @@ def writeToResultsFile(message):
 		copyFileToS3(resultsFile)
 		createNewFile()
 	with open(resultsFile, 'a') as f:
-		f.write('"' + str(message.payload).replace("b'", "").replace("'", "") + '","' + str(message.topic) + '","' + str(message.qos) + '"\n')
+		f.write('"' + str(message.payload)[2:][:-1] + '","' + str(message.topic) + '","' + str(message.qos) + '"\n')
 
 def createNewFile():
 	"Creates a new results file"
