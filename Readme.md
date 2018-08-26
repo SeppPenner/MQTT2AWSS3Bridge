@@ -10,13 +10,12 @@ MQTT2AWSS3Bridge is a project to connect a locally running broker to AWS S3 and 
 
 ## Adjust your settings:
 
-* Adjust the brokers to the addresses you want to use: `broker_source` and `broker_target`
+* Adjust the broker to the address you want to use: `broker_source`
 * Add your custom filters to `filterMessage()` if you want to filter messages
 * Adjust your credentials (uncomment if anonymous): 
 
 ```python
 client_source.username_pw_set("mqtt", "IoT")
-#client_target.username_pw_set("mqtt", "IoT")
 ```
 
 * Install the AWS command line: https://docs.aws.amazon.com/cli/latest/userguide/installing.html
