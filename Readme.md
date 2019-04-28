@@ -1,12 +1,13 @@
 # MQTT2AWSS3Bridge
 
-MQTT2AWSS3Bridge is a project to connect a locally running broker to AWS S3 and upload the messages as a simple .txt file. The project was written and tested in Python 3.7.1.
+MQTT2AWSS3Bridge is a project to connect a locally running broker to AWS S3 and upload the messages as a simple .txt file. The project was written and tested in Python 3.7.3.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/q54cv976lrsclueu?svg=true)](https://ci.appveyor.com/project/SeppPenner/mqtt2awss3bridge)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/MQTT2AWSS3Bridge/master/License.txt)
+[![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/MQTT2AWSS3Bridge/badge.svg)](https://snyk.io/test/github/SeppPenner/MQTT2AWSS3Bridge) 
 
 ## Adjust your settings:
 
@@ -73,7 +74,7 @@ python3 bridge.py
 python3 bridgeFiltering.py
 ```
 
-## Installing the latest version of Python (Currently 3.7.0) on the Raspberry Pi:
+## Installing the latest version of Python (Currently 3.7.3) on the Raspberry Pi:
 
 https://gist.github.com/SeppPenner/6a5a30ebc8f79936fa136c524417761d
 
