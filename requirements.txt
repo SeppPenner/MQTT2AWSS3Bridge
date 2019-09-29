@@ -1,2 +1,2 @@
 paho-mqtt==1.4.0
-awscli==1.16.166
+awscli==1.16.248
