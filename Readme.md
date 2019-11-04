@@ -6,7 +6,7 @@ MQTT2AWSS3Bridge is a project to connect a locally running broker to AWS S3 and 
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/MQTT2AWSS3Bridge/master/License.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/MQTT2AWSS3Bridge/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/MQTT2AWSS3Bridge/badge.svg)](https://snyk.io/test/github/SeppPenner/MQTT2AWSS3Bridge) 
 
 ## Adjust your settings:
