@@ -1,6 +1,6 @@
 # MQTT2AWSS3Bridge
 
-MQTT2AWSS3Bridge is a project to connect a locally running broker to AWS S3 and upload the messages as a simple .txt file. The project was written and tested in Python 3.7.4.
+MQTT2AWSS3Bridge is a project to connect a locally running broker to AWS S3 and upload the messages as a simple .txt file. The project was written and tested in Python 3.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/q54cv976lrsclueu?svg=true)](https://ci.appveyor.com/project/SeppPenner/mqtt2awss3bridge)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/MQTT2AWSS3Bridge.svg)](https://github.com/SeppPenner/MQTT2AWSS3Bridge/issues)
@@ -92,5 +92,4 @@ https://gist.github.com/SeppPenner/6a5a30ebc8f79936fa136c524417761d
 Change history
 --------------
 
-* **Version 1.0.0.1 (2019-09-29)** : Updated python version, updated requirements.
-* **Version 1.0.0.0 (?)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/MQTT2AWSS3Bridge/blob/master/Changelog.md).
