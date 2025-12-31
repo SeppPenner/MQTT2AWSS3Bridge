@@ -1,2 +1,2 @@
-paho-mqtt==1.6.1
-awscli==1.27.165
+paho-mqtt==2.1.0
+awscli==1.44.9
